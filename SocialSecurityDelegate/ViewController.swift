@@ -17,6 +17,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         textField.delegate = self;
     }
+    
+    //MARK: UITextFieldDelegate
 
     //The string argument is the character or characters the user wants to insert.
     //(It could be more than one character if the user is pasting text into the UITextField.)
